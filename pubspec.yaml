@@ -1,0 +1,25 @@
+name: firebase_download_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # download file from firebase
+  firebase_core: ^1.0.3
+  firebase_storage: ^8.0.3
+
+  # store file on device
+  path_provider: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
